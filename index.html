@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Ahmad - Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">&lt;/ahmad&gt;</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-code'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hey, This is</span>
+                    <h1 class="home__name">Ahmad Qasimi</h1>
+                    <h3 class="home__education">Web Developer</h3>
+
+                    <div class="home__button">
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="assets/img/perfil.jpg" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.instagram.com/ahm09._" target="_blank" class="home__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.facebook.com/ahmadjan.qasimi.71" target="_blank" class="home__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@ahm09.__" target="_blank" class="home__social-link">
+                        <i class='bx bxl-tiktok'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-user about__icon'></i>
+                            <h3 class="about__title">Full Name</h3>
+                            <span class="about__subtitle">Ahmad Jan Qasimi</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-cake about__icon'></i>
+                            <h3 class="about__title">Birthday</h3>
+                            <span class="about__subtitle">8, June, 2009</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-terminal about__icon'></i>
+                            <h3 class="about__title">Role</h3>
+                            <span class="about__subtitle">Front-end</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Web developer passionate about crafting modern, 
+                        responsive websites using HTML, CSS, JavaScript, and modern frameworks.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">My Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">&lt;/&gt</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-html5'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML 5</h3>
+                                    <span class="skills__level">80%</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-css3'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS 3</h3>
+                                    <span class="skills__level">70%</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-javascript'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">35%</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-python'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">65%</span>
+                                </div>
+                            </div>
+
+                            <!--<div class="skills__data">
+                                <i class='bx bxl-django'></i>
+
+                                 <div>
+                                    <h3 class="skills__name">Django</h3>
+                                    <span class="skills__level">70%</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">My Projects</h2>
+
+            
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Calculator</h3>
+
+                    <a href="https://ahm09-calculator.vercel.app/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Clock</h3>
+
+                    <a href="https://ahmad-clock.vercel.app/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <!--<div class="work__card mix design">
+                    <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Brand Design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">App Movil</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>-->
+
+            </div>
+        </section>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">   </h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/ahmadjan.qasimi.71" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.tiktok.com/@ahm09.__" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-tiktok footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.instagram.com/ahm09._" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                ahmad-q10@hotmail.com
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
