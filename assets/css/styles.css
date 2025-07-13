@@ -546,6 +546,11 @@ i.bxl-react {
   color: var(--first-color);
 }
 
+.skills__data {
+  font-size: 1.2rem;
+  color: var(--first-color);
+}
+
 .skills__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
